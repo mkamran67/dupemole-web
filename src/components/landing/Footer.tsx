@@ -75,16 +75,18 @@ export default function Footer() {
             {/* Download Buttons */}
             <div className="flex gap-3 mt-6">
               <a
-                href="#home"
-                onClick={(e) => handleNav(e, '#home')}
+                href="https://github.com/mkamran67/DupeMole/releases"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white/80 text-xs font-medium px-4 py-2.5 rounded-lg hover:bg-white/10 transition-colors duration-200 cursor-pointer whitespace-nowrap"
               >
                 <i className="ri-apple-line"></i>
                 macOS
               </a>
               <a
-                href="#home"
-                onClick={(e) => handleNav(e, '#home')}
+                href="https://github.com/mkamran67/DupeMole/releases"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white/80 text-xs font-medium px-4 py-2.5 rounded-lg hover:bg-white/10 transition-colors duration-200 cursor-pointer whitespace-nowrap"
               >
                 <i className="ri-ubuntu-line"></i>

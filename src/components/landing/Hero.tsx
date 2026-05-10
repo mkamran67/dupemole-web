@@ -67,14 +67,18 @@ export default function Hero() {
         {/* Buttons */}
         <div className="animate-item opacity-0 translate-y-4 transition-all duration-700 delay-500 ease-out mt-10 flex flex-col sm:flex-row gap-4">
           <a
-            href="#scan"
+            href="https://github.com/mkamran67/DupeMole/releases"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-black text-sm font-semibold px-8 py-3.5 rounded-pill hover:bg-white/90 transition-colors duration-200 shadow-medium cursor-pointer whitespace-nowrap"
           >
             <i className="ri-download-line"></i>
             Download for macOS
           </a>
           <a
-            href="#scan"
+            href="https://github.com/mkamran67/DupeMole/releases"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 border border-white/30 text-white text-sm font-medium px-8 py-3.5 rounded-pill hover:bg-white/10 transition-colors duration-200 cursor-pointer whitespace-nowrap"
           >
             <i className="ri-download-line"></i>
